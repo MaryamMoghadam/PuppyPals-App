@@ -11,10 +11,22 @@ var styles = StyleSheet.create({
   color: {
   	color: '#df4723'
   },
+  input: {
+    height:40,
+    backgroundColor:'rgba(255,255,255,0.7)',
+    marginBottom:20,
+    color:'#FFF',
+    paddingHorizontal:10
+  },
   center: {
     alignItems: 'center',
     justifyContent: 'center',
     textAlign: 'center'
+  },
+  logoContainer: {
+    alignItems:'center',
+    flexGrow:1,
+    justifyContent:'center'
   },
   img: {
   	width: 90,
